@@ -1,24 +1,22 @@
-🌦️ Weather App
+Weather App
 
-A responsive Weather Application built using React that allows users to search for any location and view real-time weather information.
+A simple and responsive Weather Application built using React. This app allows users to search for any location and view real-time weather information including temperature, date & time, weather conditions, and other atmospheric details.
 
-The app fetches live weather data and displays details such as:
+🚀 Features
 
-📍 Location
+Search weather by city or location
 
-🕒 Local date & time
+Display real-time temperature (in degrees)
 
-🌡️ Temperature (degrees)
+Show local date and time of the searched location
 
-🌅 Day or 🌙 Night status
+Indicates day or night
 
-🌧️ Weather conditions (Rainy, Cloudy, Snow, Clear, etc.)
+Displays weather conditions (Rainy, Cloudy, Snow, Clear, etc.)
 
-💧 Humidity
+Shows humidity, wind speed, and atmospheric pressure
 
-🌬️ Wind speed
-
-🔽 Atmospheric pressure
+Responsive and clean user interface using Bootstrap
 
 🛠️ Technologies Used
 
@@ -34,12 +32,34 @@ Bootstrap
 
 Weather API
 
-✨ Features
+📁 Project Structure
+weather-app/
+│
+├── public/                 # Public assets
+├── src/
+│   ├── components/         # Reusable React components
+│   ├── App.js              # Main application component
+│   └── index.js            # Entry point
+├── .gitignore              # Git ignore file
+├── package.json            # Project dependencies
+└── README.md               # Project documentation
 
-Search weather by city or location
+💡 How It Works
 
-Real-time weather updates
+The user enters a city or location in the search input.
 
-Responsive UI using Bootstrap
+The app fetches real-time weather data from a weather API.
 
-Clean and user-friendly interface
+Weather details such as temperature, location, date & time, and conditions are displayed.
+
+Additional data like humidity, wind speed, and pressure are shown instantly.
+
+UI updates dynamically without page reload.
+
+👨‍💻 Author
+
+Vamshi Yeddula
+
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://todo-list-app-silk.vercel.app/)
+
+> **[🚀 View Live Website](https://todo-list-app-silk.vercel.app/)** 
