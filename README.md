@@ -1,8 +1,10 @@
-Weather App
+# Weather App
 
 A simple and responsive Weather Application built using React. This app allows users to search for any location and view real-time weather information including temperature, date & time, weather conditions, and other atmospheric details.
 
-🚀 Features
+---
+
+# 🚀 Features
 
 Search weather by city or location
 
@@ -18,7 +20,9 @@ Shows humidity, wind speed, and atmospheric pressure
 
 Responsive and clean user interface using Bootstrap
 
-🛠️ Technologies Used
+---
+
+# 🛠️ Technologies Used
 
 React
 
@@ -32,7 +36,10 @@ Bootstrap
 
 Weather API
 
-📁 Project Structure
+---
+
+# 📁 Project Structure
+
 weather-app/
 │
 ├── public/                 # Public assets
@@ -43,6 +50,8 @@ weather-app/
 ├── .gitignore              # Git ignore file
 ├── package.json            # Project dependencies
 └── README.md               # Project documentation
+
+---
 
 💡 How It Works
 
@@ -56,10 +65,14 @@ Additional data like humidity, wind speed, and pressure are shown instantly.
 
 UI updates dynamically without page reload.
 
+---
+
 👨‍💻 Author
 
 Vamshi Yeddula
 
-[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://todo-list-app-silk.vercel.app/)
+---                               
 
-> **[🚀 View Live Website](https://todo-list-app-silk.vercel.app/)** 
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)]
+
+> **[🚀 View Live Website]** 
