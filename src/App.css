@@ -1,0 +1,115 @@
+/* ================= BASE SETUP ================= */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0f172a;
+  font-family: 'Poppins', sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+/* ================= ERROR TOAST ================= */
+.error-toast {
+  position: fixed;        
+  top: 20px;              
+  left: 50%;
+  transform: translateX(-50%); 
+  background-color: #ff4d4d;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  z-index: 9999;          
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from { top: -50px; opacity: 0; }
+  to { top: 20px; opacity: 1; }
+}
+
+.app-container {
+  position: relative;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+/* ================= SEARCH BAR ================= */
+.search-wrapper {
+  margin-top: 90px;
+  transition: margin-top 0.3s ease;
+}
+
+.search-box {
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(14px);
+  border-radius: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.search-box input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.search-box input:focus,
+.search-box button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+
+/* ================= WEATHER POSITIONING ================= */
+.weather-wrapper {
+  margin-top: auto;
+  padding-bottom: calc(env(safe-area-inset-bottom) + 32px);
+}
+
+/* ================= GLASS CARD ================= */
+.glass-card {
+  padding: 30px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.3);
+}
+
+.temp {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.time {
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.extra-info {
+  margin-top: 18px;
+  font-size: 14px;
+}
+
+/* ================= DESKTOP REFINEMENT ================= */
+@media (min-width: 992px) {
+  .weather-wrapper {
+    padding-bottom: 80px;
+  }
+
+  .glass-card {
+    transform: scale(1.1);
+  }
+}
+
+
