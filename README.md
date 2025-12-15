@@ -40,6 +40,7 @@ Weather API
 
 # 📁 Project Structure
 
+```
 weather-app/
 │
 ├── public/                 # Public assets
@@ -50,6 +51,7 @@ weather-app/
 ├── .gitignore              # Git ignore file
 ├── package.json            # Project dependencies
 └── README.md               # Project documentation
+```
 
 ---
 
