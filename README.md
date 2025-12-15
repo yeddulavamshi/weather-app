@@ -1,44 +1,44 @@
-# Weather App
+## Weather App
 
 A simple and responsive Weather Application built using React. This app allows users to search for any location and view real-time weather information including temperature, date & time, weather conditions, and other atmospheric details.
 
 ---
 
-# 🚀 Features
+## 🚀 Features
 
-Search weather by city or location
+* Search weather by city or location
 
-Display real-time temperature (in degrees)
+* Display real-time temperature (in degrees)
 
-Show local date and time of the searched location
+* Show local date and time of the searched location
 
-Indicates day or night
+* Indicates day or night
 
-Displays weather conditions (Rainy, Cloudy, Snow, Clear, etc.)
+* Displays weather conditions (Rainy, Cloudy, Snow, Clear, etc.)
 
-Shows humidity, wind speed, and atmospheric pressure
+* Shows humidity, wind speed, and atmospheric pressure
 
-Responsive and clean user interface using Bootstrap
-
----
-
-# 🛠️ Technologies Used
-
-React
-
-HTML
-
-CSS
-
-JavaScript
-
-Bootstrap
-
-Weather API
+* Responsive and clean user interface using Bootstrap
 
 ---
 
-# 📁 Project Structure
+## 🛠️ Technologies Used
+
+* **React**
+
+* **HTML**
+  
+* **CSS**
+
+* **JavaScript**
+
+* **Bootstrap**
+
+* **Weather API**
+
+---
+
+## 📁 Project Structure
 
 ```
 weather-app/
@@ -55,26 +55,26 @@ weather-app/
 
 ---
 
-💡 How It Works
+## 💡 How It Works
 
-The user enters a city or location in the search input.
+1.The user enters a city or location in the search input.
 
-The app fetches real-time weather data from a weather API.
+2.The app fetches real-time weather data from a weather API.
 
-Weather details such as temperature, location, date & time, and conditions are displayed.
+3.Weather details such as temperature, location, date & time, and conditions are displayed.
 
-Additional data like humidity, wind speed, and pressure are shown instantly.
+4.Additional data like humidity, wind speed, and pressure are shown instantly.
 
-UI updates dynamically without page reload.
+5.UI updates dynamically without page reload.
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Vamshi Yeddula
+**Vamshi Yeddula**
 
 ---                               
 
-[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)]
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://weather-app-wine-nine-g17v3bbymy.vercel.app/)
 
-> **[🚀 View Live Website]** 
+> **[🚀 View Live Website](https://weather-app-wine-nine-g17v3bbymy.vercel.app/)** 
