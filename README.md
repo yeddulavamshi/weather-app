@@ -57,15 +57,15 @@ weather-app/
 
 ## 💡 How It Works
 
-1.The user enters a city or location in the search input.
+1. The user enters a city or location in the search input.
 
-2.The app fetches real-time weather data from a weather API.
+2. The app fetches real-time weather data from a weather API.
 
-3.Weather details such as temperature, location, date & time, and conditions are displayed.
+3. Weather details such as temperature, location, date & time, and conditions are displayed.
 
-4.Additional data like humidity, wind speed, and pressure are shown instantly.
+4. Additional data like humidity, wind speed, and pressure are shown instantly.
 
-5.UI updates dynamically without page reload.
+5. UI updates dynamically without page reload.
 
 ---
 
