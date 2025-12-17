@@ -1,16 +1,80 @@
-# React + Vite
+## Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Weather Application built using React. This app allows users to search for any location and view real-time weather information including temperature, date & time, weather conditions, and other atmospheric details.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* Search weather by city or location
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Display real-time temperature (in degrees)
 
-## Expanding the ESLint configuration
+* Show local date and time of the searched location
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Indicates day or night
+
+* Displays weather conditions (Rainy, Cloudy, Snow, Clear, etc.)
+
+* Shows humidity, wind speed, and atmospheric pressure
+
+* Responsive and clean user interface using Bootstrap
+
+---
+
+## 🛠️ Technologies Used
+
+* **React**
+
+* **HTML**
+  
+* **CSS**
+
+* **JavaScript**
+
+* **Bootstrap**
+
+* **Weather API**
+
+---
+
+## 📁 Project Structure
+
+```
+weather-app/
+│
+├── public/                 # Public assets
+├── src/
+│   ├── components/         # Reusable React components
+│   ├── App.js              # Main application component
+│   └── index.js            # Entry point
+├── .gitignore              # Git ignore file
+├── package.json            # Project dependencies
+└── README.md               # Project documentation
+```
+
+---
+
+## 💡 How It Works
+
+1. The user enters a city or location in the search input.
+
+2. The app fetches real-time weather data from a weather API.
+
+3. Weather details such as temperature, location, date & time, and conditions are displayed.
+
+4. Additional data like humidity, wind speed, and pressure are shown instantly.
+
+5. UI updates dynamically without page reload.
+
+---
+
+## 👨‍💻 Author
+
+**Vamshi Yeddula**
+
+---                               
+
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://weather-app-wine-nine-g17v3bbymy.vercel.app/)
+
+> **[🚀 View Live Website](https://weather-app-wine-nine-g17v3bbymy.vercel.app/)** 
