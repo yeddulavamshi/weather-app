@@ -10,7 +10,6 @@ function App() {
 
   const clockRef = useRef(null);
 
-  console.log("My Key is:", import.meta.env.VITE_WEATHER_API_KEY);
   const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
   
   const handleKeyDown = (e) => {
